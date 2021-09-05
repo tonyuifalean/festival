@@ -326,7 +326,18 @@
 </div>
 
 <div class="content" role="main">
-
+  <span class="form-inline">
+    <select
+        class="form-control"
+        #selectedLang
+        (change)="switchLang(selectedLang.value)">
+      <option *ngFor="let language of translate.getLangs()"
+        [value]="language"
+        [selected]="language === translate.currentLang">
+        {{ language }}
+      </option>
+    </select>
+  </span>
   <!-- Highlight Card -->
   <div class="card highlight-card card-small">
 
@@ -341,7 +352,7 @@
       </g>
     </svg>
 
-    <span>{{ title }} app is running!</span>
+    <span>{{ title }} {{'IS_RUNNING' | translate}}!</span>
 
     <svg id="rocket-smoke" xmlns="http://www.w3.org/2000/svg" width="516.119" height="1083.632" viewBox="0 0 516.119 1083.632">
       <title>Rocket Ship Smoke</title>
@@ -351,7 +362,7 @@
   </div>
 
   <!-- Resources -->
-  <h2>Resources</h2>
+  <h2>{{"RESOURCES" | translate}}</h2>
   <p>Here are some links to help you get started:</p>
 
   <div class="card-container">
