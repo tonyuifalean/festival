@@ -3,7 +3,9 @@
     <button mat-icon-button class="toggle-sidebar" (click)="snav.toggle()">
       <mat-icon>menu</mat-icon>
     </button>
-    <h1 class="festival-app-name">{{ "SIGHISOARA_FESTIVALS" | translate }}</h1>
+    <a href="/" class="nav-link home"><img src="assets/festival-logo.svg" width="150" height="40"
+        title="Home" alt="Home" class="ng-star-inserted">
+    </a>
   </mat-toolbar>
 
   <mat-sidenav-container class="festival-sidenav-container" [style.marginTop.px]="mobileQuery.matches ? 56 : 0">
@@ -15,12 +17,13 @@
     </mat-sidenav>
 
     <mat-sidenav-content>
-      <select class="form-control" #selectedLang (change)="switchLang(selectedLang.value)">
+      <select class="form-control language-selection" #selectedLang (change)="switchLang(selectedLang.value)">
         <option *ngFor="let language of translate.getLangs()" [value]="language"
           [selected]="language === translate.currentLang">
           {{ language }}
         </option>
       </select>
+      <h1 class="festival-app-name">{{ "SIGHISOARA_FESTIVALS" | translate }}</h1>
     </mat-sidenav-content>
   </mat-sidenav-container>
 </div>
