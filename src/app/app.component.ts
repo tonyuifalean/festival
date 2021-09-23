@@ -13,7 +13,11 @@ export class AppComponent {
 
   fillerNav = [{
     name: "Home",
-    route: "/home"
+    route: "home"
+  },
+  {
+    name: "Festival",
+    route: "festival"
   }];
 
   private _mobileQueryListener: () => void;
