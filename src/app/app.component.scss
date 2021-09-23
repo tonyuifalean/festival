@@ -7,14 +7,29 @@
   left: 0;
   right: 0;
 
+  .festival-toolbar {
+    .nav-link.home img {
+      height: 40px;
+      width: 150px;
+    }
+
+    .navbar-nav {
+      flex-direction: row;
+
+      .nav-link {
+        padding: 0 0.5rem;
+
+        img {
+          height: 20px;
+        }
+      }
+    }
+  }
+
   .festival-sidenav-container {
     /* When the sidenav is not fixed, stretch the sidenav container to fill the available space. This
        causes `<mat-sidenav-content>` to act as our scrolling element for desktop layouts. */
     flex: 1;
-  }
-
-  .language-selection {
-    width: 50px;
   }
 
   .mat-sidenav-content {

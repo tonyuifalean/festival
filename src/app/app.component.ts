@@ -11,7 +11,10 @@ export class AppComponent {
 
   mobileQuery: MediaQueryList;
 
-  fillerNav = Array.from({ length: 5 }, (_, i) => `Nav Item ${ i + 1 }`);
+  fillerNav = [{
+    name: "Home",
+    route: "/home"
+  }];
 
   private _mobileQueryListener: () => void;
 
