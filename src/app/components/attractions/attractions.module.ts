@@ -3,15 +3,15 @@ import { HttpClient } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 
+import { AttractionsRoutingModule } from './attractions-routing.module';
+import { AttractionsComponent } from './attractions.component';
 import { httpTranslateLoader } from '../../app.module';
-import { FestivalRoutingModule } from './festival-routing.module';
-import { FestivalComponent } from './festival.component';
 
 @NgModule({
-  declarations: [FestivalComponent],
+  declarations: [AttractionsComponent],
   imports: [
     CommonModule,
-    FestivalRoutingModule,
+    AttractionsRoutingModule,
     TranslateModule.forChild({
       loader: {
         provide: TranslateModule,
@@ -21,4 +21,4 @@ import { FestivalComponent } from './festival.component';
     }),
   ],
 })
-export class FestivalModule {}
+export class AttractionsModule {}

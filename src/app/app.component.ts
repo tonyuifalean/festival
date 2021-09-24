@@ -5,28 +5,37 @@ import { TranslateService } from '@ngx-translate/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-
   mobileQuery: MediaQueryList;
 
-  fillerNav = [{
-    name: "Home",
-    route: "home"
-  },
-  {
-    name: "Festival",
-    route: "festival"
-  },
-  {
-    name: "News",
-    route: "news"
-  }];
+  fillerNav = [
+    {
+      name: 'Home',
+      route: 'home',
+    },
+    {
+      name: 'Festival',
+      route: 'festival',
+    },
+    {
+      name: 'News',
+      route: 'news',
+    },
+    {
+      name: 'Attractions',
+      route: 'attractions',
+    },
+  ];
 
   private _mobileQueryListener: () => void;
 
-  constructor(public translate: TranslateService, changeDetectorRef: ChangeDetectorRef, media: MediaMatcher) {
+  constructor(
+    public translate: TranslateService,
+    changeDetectorRef: ChangeDetectorRef,
+    media: MediaMatcher
+  ) {
     this.mobileQuery = media.matchMedia('(max-width: 600px)');
     this._mobileQueryListener = () => changeDetectorRef.detectChanges();
     this.mobileQuery.addListener(this._mobileQueryListener);
@@ -39,9 +48,9 @@ export class AppComponent {
   }
 
   /**
- * Translate the language constants to the given language
- * @param lang
- */
+   * Translate the language constants to the given language
+   * @param lang
+   */
   switchLang(lang: string): void {
     this.translate.use(lang);
   }
