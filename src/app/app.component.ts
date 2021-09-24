@@ -18,6 +18,10 @@ export class AppComponent {
   {
     name: "Festival",
     route: "festival"
+  },
+  {
+    name: "News",
+    route: "news"
   }];
 
   private _mobileQueryListener: () => void;
