@@ -8,15 +8,17 @@ import { NewsRoutingModule } from './news-routing.module';
 import { NewsComponent } from './news.component';
 
 @NgModule({
-  declarations: [
-    NewsComponent
-  ],
+  declarations: [NewsComponent],
   imports: [
     CommonModule,
     NewsRoutingModule,
     TranslateModule.forChild({
-      loader: {provide: TranslateModule, useFactory: httpTranslateLoader, deps: [HttpClient]}
-    })
-  ]
+      loader: {
+        provide: TranslateModule,
+        useFactory: httpTranslateLoader,
+        deps: [HttpClient],
+      },
+    }),
+  ],
 })
-export class NewsModule { }
+export class NewsModule {}
