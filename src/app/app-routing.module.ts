@@ -8,6 +8,10 @@ const routes: Routes = [
   {
     path: 'festival',
     loadChildren: () => import('./components').then(m => m.FestivalModule)
+  },
+  {
+    path: 'news',
+    loadChildren: () => import('./components').then(m => m.NewsModule)
   }
 ];
 
