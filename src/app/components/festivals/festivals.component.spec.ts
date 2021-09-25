@@ -1,22 +1,22 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { TranslateModule } from '@ngx-translate/core';
 
-import { FestivalComponent } from './festival.component';
+import { FestivalsComponent } from './festivals.component';
 
-describe('FestivalComponent', () => {
-  let component: FestivalComponent;
-  let fixture: ComponentFixture<FestivalComponent>;
+describe('FestivalsComponent', () => {
+  let component: FestivalsComponent;
+  let fixture: ComponentFixture<FestivalsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [FestivalComponent],
+      declarations: [FestivalsComponent],
       imports: [TranslateModule.forRoot()]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(FestivalComponent);
+    fixture = TestBed.createComponent(FestivalsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
