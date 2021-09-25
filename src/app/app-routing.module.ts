@@ -6,8 +6,8 @@ const routes: Routes = [
   { path: '',   redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   {
-    path: 'festival',
-    loadChildren: () => import('./components').then(m => m.FestivalModule)
+    path: 'festivals',
+    loadChildren: () => import('./components').then(m => m.FestivalsModule)
   },
   {
     path: 'news',
@@ -16,6 +16,10 @@ const routes: Routes = [
   {
     path: 'attractions',
     loadChildren: () => import('./components').then(m => m.AttractionsModule)
+  },
+  {
+    path: 'hotels',
+    loadChildren: () => import('./components').then(m => m.HotelsModule)
   }
 ];
 

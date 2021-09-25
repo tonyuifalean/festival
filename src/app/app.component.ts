@@ -27,6 +27,10 @@ export class AppComponent {
       name: 'Attractions',
       route: 'attractions',
     },
+    {
+      name: 'Hotels',
+      route: 'hotels',
+    },
   ];
 
   private _mobileQueryListener: () => void;

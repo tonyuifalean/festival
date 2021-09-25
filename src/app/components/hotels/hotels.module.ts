@@ -4,14 +4,16 @@ import { NgModule } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 
 import { httpTranslateLoader } from '../../app.module';
-import { FestivalRoutingModule } from './festival-routing.module';
-import { FestivalComponent } from './festival.component';
+import { HotelsRoutingModule } from './hotels-routing.module';
+import { HotelsComponent } from './hotels.component';
 
 @NgModule({
-  declarations: [FestivalComponent],
+  declarations: [
+    HotelsComponent
+  ],
   imports: [
     CommonModule,
-    FestivalRoutingModule,
+    HotelsRoutingModule,
     TranslateModule.forChild({
       loader: {
         provide: TranslateModule,
@@ -19,6 +21,6 @@ import { FestivalComponent } from './festival.component';
         deps: [HttpClient],
       },
     }),
-  ],
+  ]
 })
-export class FestivalModule {}
+export class HotelsModule { }
