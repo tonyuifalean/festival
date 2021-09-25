@@ -4,23 +4,27 @@ import { HomeComponent } from './components/home/home.component';
 
 const routes: Routes = [
   { path: '',   redirectTo: '/home', pathMatch: 'full' },
-  { path: 'home', component: HomeComponent },
+  {
+    path: 'attractions',
+    loadChildren: () => import('./components').then(m => m.AttractionsModule)
+  },
   {
     path: 'festivals',
     loadChildren: () => import('./components').then(m => m.FestivalsModule)
+  },
+  { path: 'home', component: HomeComponent },
+  {
+    path: 'hotels',
+    loadChildren: () => import('./components').then(m => m.HotelsModule)
   },
   {
     path: 'news',
     loadChildren: () => import('./components').then(m => m.NewsModule)
   },
   {
-    path: 'attractions',
-    loadChildren: () => import('./components').then(m => m.AttractionsModule)
+    path: 'restaurants',
+    loadChildren: () => import('./components').then(m => m.RestaurantsModule)
   },
-  {
-    path: 'hotels',
-    loadChildren: () => import('./components').then(m => m.HotelsModule)
-  }
 ];
 
 @NgModule({
