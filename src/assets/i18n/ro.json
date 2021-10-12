@@ -1,8 +1,19 @@
 {
-  "HOME_PAGE": "Pagina Acasa",
+  "LOGIN_PAGE": {
+    "USERNAME": "Utilizator",
+    "PASSWORD": "Parola",
+    "FIELD": "Campul",
+    "IS_REQUIRED": "este obligatoriu",
+    "WRONG_CREDENTIALS": "Credentiale gresite!"
+  },
+  "HOME_PAGE": {
+    "HELLO": "Buna",
+    "TITLE": "Pagina Acasa"
+  },
   "HOTELS_PAGE": "Pagina Hoteluri",
   "FESTIVALS_PAGE": "Pagina Festivaluri",
   "NEWS_PAGE": "Pagina Stiri",
+  "REGISTRATION_PAGE": "Pagina Inregistrare",
   "RESTAURANTS_PAGE": "Pagina Restaurante",
   "TOURIST_ATTRACTIONS_PAGE": "Pagina atractii turistice"
 }

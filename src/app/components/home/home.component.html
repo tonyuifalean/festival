@@ -1,1 +1,5 @@
-<h1>{{ "HOME_PAGE" | translate }}</h1>
+<h1>{{ "HOME_PAGE.TITLE" | translate }}</h1>
+
+<h2 *ngIf="currentUser?.firstName">
+  {{ "HOME_PAGE.HELLO" | translate }}, {{ currentUser?.firstName }}!
+</h2>

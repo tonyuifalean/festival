@@ -1,19 +1,17 @@
+import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
-import { NgModule } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 
-import { httpTranslateLoader } from '../../app.module';
-import { HotelsRoutingModule } from './hotels-routing.module';
-import { HotelsComponent } from './hotels.component';
+import { httpTranslateLoader } from '../app.module';
+import { NewsRoutingModule } from './news-routing.module';
+import { NewsComponent } from './news.component';
 
 @NgModule({
-  declarations: [
-    HotelsComponent
-  ],
+  declarations: [NewsComponent],
   imports: [
     CommonModule,
-    HotelsRoutingModule,
+    NewsRoutingModule,
     TranslateModule.forChild({
       loader: {
         provide: TranslateModule,
@@ -21,6 +19,6 @@ import { HotelsComponent } from './hotels.component';
         deps: [HttpClient],
       },
     }),
-  ]
+  ],
 })
-export class HotelsModule { }
+export class NewsModule {}
