@@ -17,8 +17,12 @@
       flex-direction: row;
 
       .nav-link {
+        color: white;
         padding: 0 0.5rem;
 
+        &:hover {
+          color: grey;
+        }
         img {
           height: 20px;
         }

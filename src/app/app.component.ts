@@ -1,6 +1,8 @@
 import { MediaMatcher } from '@angular/cdk/layout';
 import { ChangeDetectorRef, Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
+import { AuthenticationService, User } from './shared';
 
 @Component({
   selector: 'app-root',
@@ -16,8 +18,8 @@ export class AppComponent {
       route: 'home',
     },
     {
-      name: 'Festival',
-      route: 'festival',
+      name: 'Festivals',
+      route: 'festivals',
     },
     {
       name: 'News',
@@ -36,13 +38,15 @@ export class AppComponent {
       route: 'restaurants',
     },
   ];
-
+  public currentUser: User = {};
   private _mobileQueryListener: () => void;
 
   constructor(
     public translate: TranslateService,
     changeDetectorRef: ChangeDetectorRef,
-    media: MediaMatcher
+    media: MediaMatcher,
+    private authenticationService: AuthenticationService,
+    private router: Router
   ) {
     this.mobileQuery = media.matchMedia('(max-width: 600px)');
     this._mobileQueryListener = () => changeDetectorRef.detectChanges();
@@ -53,6 +57,8 @@ export class AppComponent {
 
     // language that will be used by default
     translate.setDefaultLang('en');
+
+    this.authenticationService.currentUser.subscribe(x => this.currentUser = x);
   }
 
   /**
@@ -65,6 +71,11 @@ export class AppComponent {
 
   ngOnDestroy(): void {
     this.mobileQuery.removeListener(this._mobileQueryListener);
+  }
+
+  logout() {
+    this.authenticationService.logout();
+    this.router.navigate(['/login']);
   }
 }
 

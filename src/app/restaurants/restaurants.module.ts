@@ -3,15 +3,17 @@ import { HttpClient } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 
-import { AttractionsRoutingModule } from './attractions-routing.module';
-import { AttractionsComponent } from './attractions.component';
-import { httpTranslateLoader } from '../../app.module';
+import { httpTranslateLoader } from '../app.module';
+import { RestaurantsRoutingModule } from './restaurants-routing.module';
+import { RestaurantsComponent } from './restaurants.component';
 
 @NgModule({
-  declarations: [AttractionsComponent],
+  declarations: [
+    RestaurantsComponent
+  ],
   imports: [
     CommonModule,
-    AttractionsRoutingModule,
+    RestaurantsRoutingModule,
     TranslateModule.forChild({
       loader: {
         provide: TranslateModule,
@@ -19,6 +21,6 @@ import { httpTranslateLoader } from '../../app.module';
         deps: [HttpClient],
       },
     }),
-  ],
+  ]
 })
-export class AttractionsModule {}
+export class RestaurantsModule { }

@@ -11,7 +11,7 @@ import { environment } from '../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components';
-import { MaterialModule } from './shared/material.module';
+import { MaterialModule } from './shared/modules/material.module';
 
 @NgModule({
   declarations: [

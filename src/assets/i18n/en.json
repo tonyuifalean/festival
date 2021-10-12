@@ -1,8 +1,19 @@
 {
-  "HOME_PAGE": "Home Page",
+  "LOGIN_PAGE": {
+    "USERNAME": "Username",
+    "PASSWORD": "Password",
+    "FIELD": "Field",
+    "IS_REQUIRED": "is required",
+    "WRONG_CREDENTIALS": "Wrong credentials!"
+  },
+  "HOME_PAGE": {
+    "HELLO": "Hello",
+    "TITLE": "Home Page"
+  },
   "HOTELS_PAGE": "Hotels Page",
   "FESTIVALS_PAGE": "Festivals Page",
   "NEWS_PAGE": "News Page",
+  "REGISTRATION_PAGE": "Registration Page",
   "RESTAURANTS_PAGE": "Restaurants Page",
   "TOURIST_ATTRACTIONS_PAGE": "Tourist attractions page"
 }
