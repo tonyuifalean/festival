@@ -1,0 +1,32 @@
+{
+  "LOGIN_PAGE": {
+    "USERNAME": "Utilizator",
+    "PASSWORD": "Parola",
+    "FIELD": "Campul",
+    "IS_REQUIRED": "este obligatoriu",
+    "WRONG_CREDENTIALS": "Credentiale gresite!"
+  },
+  "HOME_PAGE": {
+    "HELLO": "Buna",
+    "TITLE": "Pagina Acasa"
+  },
+  "HOTELS_PAGE": "Pagina Hoteluri",
+  "FESTIVALS_PAGE": "Pagina Festivaluri",
+  "NEWS_PAGE": "Pagina Stiri",
+  "REGISTRATION_PAGE": "Pagina Inregistrare",
+  "RESTAURANTS_PAGE": "Pagina Restaurante",
+  "TOURIST_ATTRACTIONS_PAGE": "Pagina atractii turistice",
+  "BLOG": {
+    "POST_1": {
+      "TITLE": "SIGHIȘOARA, orașul pitoresc învăluit în mister",
+      "P_1": "Sighișoara, acest burg medieval pitoresc cu aer gotic-misterios, așezată pe malurile râului Târnava Mare, într-un cadru natural feeric, cu o pădure ce împrejmuiește cetatea aflată pe vârful unui deal, este atestată documentar de la 14 decembrie 1280, denumirea în limba română a orașului fiind de proveniență maghiară: „Segesvár”.",
+      "P_2": "Dacă iei la pas acest oraș fermecător, îți iese-n cale Casa Vlad Dracul (locul unde se presupune că a locuit însuși Vlad Dracul, tatăl lui Vlad Țepeș) și poți să fii transpus într-o lume fascinantă, unde se întâlnesc adevărul istoric cu legendele învăluite în mister deopotrivă.",
+      "P_3": "Ca și obiective turistice, care au ajutat la dobândirea denumirii „Perla Transilvaniei”, amintim de: Piața Cetății (una dintre cele mai frumoase piețe medievale ale României), Turnul cu Ceas - înalt de 64 metri (cu propria legendă care spune că ceasul din turn nu rămâne în urmă niciodată), Biserica din Deal (cu a sa frumusețe arhitecturală în stil gotic), Scara Acoperită (cu ale sale 175 de trepte), Biserica Mănăstirii, Casa cu Cerb și, nu în ultimul rând, clădirile viu colorate care încântă privirea",
+      "P_4": "În Cetatea Medievală din Sighișoara, care se află și printre puținele cetăți medievale din Europa locuite permanent, totul este o poveste dacă facem un exercițiu de imaginație: străzi înguste pe unde s-au perindat cavaleri neînfricați și domnițe care așteptau să fie salvate, domnitori și doamnele lor care își duceau traiul în clădiri medievale, cu arhitectură în stil baroc, gotic și renascentist, în odăi somptuoase cu mobilier de lemn masiv, toboșari (deschizătorii Cetății) costumați ca-n vremurile demult apuse.",
+      "P_5": "În zilele noastre, regăsim un alt toboșar, alți cavaleri și alte domnițe, de data aceasta la celebrul Festival Medieval, care atrage an de an zeci de mii de turiști, din țară și străinătate, dornici de voioșie.",
+      "P_6": "Poveștile sunt mai frumoase când devin realități, așadar povestea continuă, prin intermediul Sighișoara Shop.",
+      "P_7": "Frumusețea pitorească a orașului împreună cu tradițiile sale deosebite încercăm să le ducem mai departe cu ajutorul produselor tematice-tradiționale din Sighișoara și în colaborare cu producătorii locali.",
+      "P_8": "Prin urmare, vă invităm cu drag să vizitați magazinul nostru și să vă achiziționați produse care spun povestea acestui oraș deosebit, din inima Transilvaniei."
+    }
+  }
+}
