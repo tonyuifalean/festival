@@ -37,6 +37,10 @@ export class AppComponent {
       name: 'Restaurants',
       route: 'restaurants',
     },
+    {
+      name: 'Blog',
+      route: 'blog',
+    },
   ];
   public currentUser: User = {};
   private _mobileQueryListener: () => void;
