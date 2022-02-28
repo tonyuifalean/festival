@@ -1,3 +1,5 @@
+$primary-color: #bd7029;
+
 .festival-main-container {
   display: flex;
   flex-direction: column;
@@ -8,6 +10,8 @@
   right: 0;
 
   .festival-toolbar {
+    background-color: $primary-color;
+
     .nav-link.home img {
       height: 40px;
       width: 150px;
