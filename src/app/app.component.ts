@@ -14,35 +14,36 @@ export class AppComponent {
 
   fillerNav = [
     {
-      name: 'Home',
+      name: 'MENU.HOME',
       route: 'home',
     },
     {
-      name: 'Festivals',
+      name: 'MENU.FESTIVALS',
       route: 'festivals',
     },
     {
-      name: 'News',
+      name: 'MENU.NEWS',
       route: 'news',
     },
     {
-      name: 'Attractions',
+      name: 'MENU.ATTRACTIONS',
       route: 'attractions',
     },
     {
-      name: 'Hotels',
+      name: 'MENU.HOTELS',
       route: 'hotels',
     },
     {
-      name: 'Restaurants',
+      name: 'MENU.RESTAURANTS',
       route: 'restaurants',
     },
     {
-      name: 'Blog',
+      name: 'MENU.BLOG',
       route: 'blog',
     },
   ];
   public currentUser: User = {};
+  public selectedLanguage: 'en' | 'ro' = 'en';
   private _mobileQueryListener: () => void;
 
   constructor(
@@ -60,7 +61,7 @@ export class AppComponent {
     translate.addLangs(['en', 'ro']);
 
     // language that will be used by default
-    translate.setDefaultLang('en');
+    translate.setDefaultLang(this.selectedLanguage);
 
     this.authenticationService.currentUser.subscribe(x => this.currentUser = x);
   }
@@ -69,8 +70,9 @@ export class AppComponent {
    * Translate the language constants to the given language
    * @param lang
    */
-  switchLang(lang: string): void {
-    this.translate.use(lang);
+  switchLang(): void {
+    this.selectedLanguage = this.selectedLanguage === 'en' ? 'ro' : 'en';
+    this.translate.use(this.selectedLanguage);
   }
 
   ngOnDestroy(): void {
