@@ -28,5 +28,14 @@
       "P_7": "Frumusețea pitorească a orașului împreună cu tradițiile sale deosebite încercăm să le ducem mai departe cu ajutorul produselor tematice-tradiționale din Sighișoara și în colaborare cu producătorii locali.",
       "P_8": "Prin urmare, vă invităm cu drag să vizitați magazinul nostru și să vă achiziționați produse care spun povestea acestui oraș deosebit, din inima Transilvaniei."
     }
+  },
+  "MENU": {
+    "ATTRACTIONS": "Attractions",
+    "BLOG": "Blog",
+    "FESTIVALS": "Festivals",
+    "HOME": "Home",
+    "HOTELS": "Hotels",
+    "NEWS": "News",
+    "RESTAURANTS": "Restaurants"
   }
 }
