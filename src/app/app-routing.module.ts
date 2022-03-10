@@ -4,6 +4,7 @@ import { HomeComponent } from './components/home/home.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: 'admin', component: HomeComponent },
   {
     path: 'attractions',
     loadChildren: () =>

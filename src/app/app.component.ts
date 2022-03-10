@@ -1,6 +1,6 @@
 import { MediaMatcher } from '@angular/cdk/layout';
-import { ChangeDetectorRef, Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
+import { ActivatedRoute, NavigationStart, Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 import { AuthenticationService, User } from './shared';
 
@@ -9,7 +9,7 @@ import { AuthenticationService, User } from './shared';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
-export class AppComponent {
+export class AppComponent implements OnInit{
   mobileQuery: MediaQueryList;
 
   fillerNav = [
@@ -44,6 +44,7 @@ export class AppComponent {
   ];
   public currentUser: User = {};
   public selectedLanguage: 'en' | 'ro' = 'en';
+  public isAdminRoute = false;
   private _mobileQueryListener: () => void;
 
   constructor(
@@ -51,7 +52,8 @@ export class AppComponent {
     changeDetectorRef: ChangeDetectorRef,
     media: MediaMatcher,
     private authenticationService: AuthenticationService,
-    private router: Router
+    private router: Router,
+    private activatedroute: ActivatedRoute
   ) {
     this.mobileQuery = media.matchMedia('(max-width: 600px)');
     this._mobileQueryListener = () => changeDetectorRef.detectChanges();
@@ -64,6 +66,15 @@ export class AppComponent {
     translate.setDefaultLang(this.selectedLanguage);
 
     this.authenticationService.currentUser.subscribe(x => this.currentUser = x);
+  }
+
+  ngOnInit(): void {
+    // Needed to display Login link if the route contains admin
+    this.router.events.subscribe((event) => {
+      if (event instanceof NavigationStart) {
+        this.isAdminRoute = event.url.includes('admin');
+      }
+    });
   }
 
   /**
