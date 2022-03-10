@@ -7,10 +7,10 @@
       <img src="assets/images/festival-logo.png" title="Home" alt="Home" class="ng-star-inserted">
     </a>
     <ul class="navbar-nav">
-      <li class="nav-item" *ngIf="!currentUser?.username">
+      <li class="nav-item" *ngIf="isAdminRoute && !currentUser?.username">
         <a class="nav-link" routerLink="/login" routerLinkActive="active">Login</a>
       </li>
-      <li class="nav-item" *ngIf="currentUser?.username">
+      <li class="nav-item" *ngIf="isAdminRoute && currentUser?.username">
         <a class="nav-link" href="#" (click)="logout()">Logout</a>
       </li>
       <li (click)="switchLang()">
