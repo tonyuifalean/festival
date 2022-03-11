@@ -1,19 +1,10 @@
-<mat-accordion class="example-headers-align" multi>
-  <mat-expansion-panel>
-    <mat-expansion-panel-header>
-      {{ "BLOG.POST_1.TITLE" | translate }}
-    </mat-expansion-panel-header>
-
-    <img src="assets/images/sighisoara-sunset.jpeg" title="Sighisoara Sunset" alt="Sighisoara Sunset"
-      class="ng-star-inserted" width="500">
-    <h1>{{ "BLOG.POST_1.TITLE" | translate }}</h1>
-    <p>{{ "BLOG.POST_1.P_1" | translate }}</p>
-    <p>{{ "BLOG.POST_1.P_2" | translate }}</p>
-    <p>{{ "BLOG.POST_1.P_3" | translate }}</p>
-    <p>{{ "BLOG.POST_1.P_4" | translate }}</p>
-    <p>{{ "BLOG.POST_1.P_5" | translate }}</p>
-    <p>{{ "BLOG.POST_1.P_6" | translate }}</p>
-    <p>{{ "BLOG.POST_1.P_7" | translate }}</p>
-    <p>{{ "BLOG.POST_1.P_8" | translate }}</p>
-  </mat-expansion-panel>
+<mat-accordion *ngIf="!isLoading; else spinner" class="example-headers-align" multi>
+  <app-blog-post
+    *ngFor="let blogPost of blogPostList; index as i"
+    [postIndex]="i + 1"
+    [postData]="blogPost">
+  </app-blog-post>
 </mat-accordion>
+<ng-template #spinner>
+  <app-spinner></app-spinner>
+</ng-template>
