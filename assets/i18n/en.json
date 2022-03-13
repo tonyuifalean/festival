@@ -45,5 +45,9 @@
     "HOTELS": "Hotels",
     "NEWS": "News",
     "RESTAURANTS": "Restaurants"
+  },
+  "RESTAURANT": {
+    "NAME": "Name",
+    "LOCATION": "Location"
   }
 }

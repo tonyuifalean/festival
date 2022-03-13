@@ -45,5 +45,9 @@
     "HOTELS": "Hoteluri",
     "NEWS": "Stiri",
     "RESTAURANTS": "Restaurante"
+  },
+  "RESTAURANT": {
+    "NAME": "Nume",
+    "LOCATION": "Locatie"
   }
 }
