@@ -29,6 +29,14 @@
       "P_8": "Prin urmare, vă invităm cu drag să vizitați magazinul nostru și să vă achiziționați produse care spun povestea acestui oraș deosebit, din inima Transilvaniei."
     }
   },
+  "FESTIVAL": {
+    "NAME": "Nume",
+    "PERIOD": "Perioada"
+  },
+  "HOTEL": {
+    "NAME": "Nume",
+    "LOCATION": "Locatie"
+  },
   "MENU": {
     "ATTRACTIONS": "Obiective",
     "BLOG": "Blog",
@@ -37,5 +45,9 @@
     "HOTELS": "Hoteluri",
     "NEWS": "Stiri",
     "RESTAURANTS": "Restaurante"
+  },
+  "RESTAURANT": {
+    "NAME": "Nume",
+    "LOCATION": "Locatie"
   }
 }

@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 
+import { SharedModule } from '@app/shared';
 import { httpTranslateLoader } from '../app.module';
 import { RestaurantsRoutingModule } from './restaurants-routing.module';
 import { RestaurantsComponent } from './restaurants.component';
@@ -14,6 +15,7 @@ import { RestaurantsComponent } from './restaurants.component';
   imports: [
     CommonModule,
     RestaurantsRoutingModule,
+    SharedModule,
     TranslateModule.forChild({
       loader: {
         provide: TranslateModule,
