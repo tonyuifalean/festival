@@ -1,1 +1,8 @@
 <h1>{{ "HOTELS_PAGE" | translate }}</h1>
+
+<app-table *ngIf="!isLoading; else spinner"
+  [displayedColumns]="displayedColumns"
+  [dataSource]="dataSource"></app-table>
+<ng-template #spinner>
+  <app-spinner></app-spinner>
+</ng-template>

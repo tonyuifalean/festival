@@ -29,6 +29,14 @@
       "P_8": "Therefore, we warmly invite you to visit our store and buy products that tell the story of this special city, from the heart of Transylvania."
     }
   },
+  "FESTIVAL": {
+    "NAME": "Name",
+    "PERIOD": "Period"
+  },
+  "HOTEL": {
+    "NAME": "Name",
+    "LOCATION": "Location"
+  },
   "MENU": {
     "ATTRACTIONS": "Attractions",
     "BLOG": "Blog",
@@ -37,5 +45,9 @@
     "HOTELS": "Hotels",
     "NEWS": "News",
     "RESTAURANTS": "Restaurants"
+  },
+  "RESTAURANT": {
+    "NAME": "Name",
+    "LOCATION": "Location"
   }
 }

@@ -1,45 +1,40 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './components/home/home.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: '', redirectTo: '/festivals', pathMatch: 'full' },
   { path: 'admin', component: HomeComponent },
   {
     path: 'attractions',
     loadChildren: () =>
-      import('./attractions/attractions.module').then(
+      import('./attractions').then(
         (m) => m.AttractionsModule
       ),
   },
   {
     path: 'festivals',
-    loadChildren: () =>
-      import('./festivals/festivals.module').then((m) => m.FestivalsModule),
+    loadChildren: () => import('./festivals').then((m) => m.FestivalsModule),
   },
   { path: 'home', component: HomeComponent },
   {
     path: 'hotels',
-    loadChildren: () =>
-      import('./hotels/hotels.module').then((m) => m.HotelsModule),
+    loadChildren: () => import('./hotels').then((m) => m.HotelsModule),
   },
   {
     path: 'news',
-    loadChildren: () => import('./news/news.module').then((m) => m.NewsModule),
+    loadChildren: () => import('./news').then((m) => m.NewsModule),
   },
   {
     path: 'restaurants',
     loadChildren: () =>
-      import('./restaurants/restaurants.module').then(
+      import('./restaurants').then(
         (m) => m.RestaurantsModule
       ),
   },
   {
     path: 'blog',
-    loadChildren: () =>
-      import('./blog/blog.module').then(
-        (m) => m.BlogModule
-      ),
+    loadChildren: () => import('./blog').then((m) => m.BlogModule),
   },
   {
     path: 'login',
