@@ -33,6 +33,10 @@
     "NAME": "Nume",
     "PERIOD": "Perioada"
   },
+  "HOTEL": {
+    "NAME": "Nume",
+    "LOCATION": "Locatie"
+  },
   "MENU": {
     "ATTRACTIONS": "Obiective",
     "BLOG": "Blog",
