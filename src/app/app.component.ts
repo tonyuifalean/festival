@@ -45,6 +45,7 @@ export class AppComponent implements OnInit{
   public currentUser: User = {};
   public selectedLanguage: 'en' | 'ro' = 'en';
   public isAdminRoute = false;
+  public isHomeRoute = false;
   private _mobileQueryListener: () => void;
 
   constructor(
@@ -73,6 +74,7 @@ export class AppComponent implements OnInit{
     this.router.events.subscribe((event) => {
       if (event instanceof NavigationStart) {
         this.isAdminRoute = event.url.includes('admin');
+        this.isHomeRoute = event.url.includes('home');
       }
     });
   }

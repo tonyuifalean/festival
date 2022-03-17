@@ -1,0 +1,22 @@
+:host {
+  padding: 10px;
+}
+
+#inner {
+  text-align: center;
+
+  .boxed {
+    clear: both;
+    margin: 10px 16px;
+
+    #lipsum {
+      p {
+        text-align: justify;
+      }
+
+      a {
+        margin: 0 auto;
+      }
+    }
+  }
+}

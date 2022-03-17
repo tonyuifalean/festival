@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 import { AuthenticationService, User } from '@app/shared';
 import { TranslateService } from '@ngx-translate/core';
@@ -13,7 +14,8 @@ export class HomeComponent {
 
   constructor(
     public translate: TranslateService,
-    private authenticationService: AuthenticationService) {
+    private authenticationService: AuthenticationService,
+    private router: Router) {
     this.authenticationService.currentUser.subscribe(x => this.currentUser = x);
   }
 }

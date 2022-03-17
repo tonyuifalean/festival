@@ -1,5 +1,94 @@
-<h1>{{ "HOME_PAGE.TITLE" | translate }}</h1>
+<div id="inner">
+  <h1>{{ "HOME_PAGE.TITLE" | translate }}</h1>
 
-<h2 *ngIf="currentUser?.firstName">
-  {{ "HOME_PAGE.HELLO" | translate }}, {{ currentUser?.firstName }}!
-</h2>
+  <h2 *ngIf="currentUser?.firstName">
+    {{ "HOME_PAGE.HELLO" | translate }}, {{ currentUser?.firstName }}!
+  </h2>
+  <h1>Lorem Ipsum</h1>
+  <h4>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</h4>
+  <h5>"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+  </h5>
+  <hr>
+  <div id="content">
+    <div class="boxed">
+      <div id="lipsum">
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit massa id lacus fringilla lobortis.
+            Phasellus id blandit tellus, eu convallis libero. Proin lacinia, nulla porttitor porttitor cursus, lectus
+            leo
+            pulvinar nulla, a aliquam metus quam id justo. In libero diam, viverra eleifend sollicitudin et, porttitor
+            ut
+            massa. Nullam sagittis laoreet scelerisque. Phasellus eleifend elit nec elit interdum, vitae ultricies leo
+            scelerisque. Mauris ac pulvinar enim. Nunc nec mauris sed ipsum tristique scelerisque sed et felis. Nullam
+            ultrices ligula at tortor blandit vulputate. Cras a accumsan urna. In in metus mauris.
+          </p>
+          <a mat-raised-button routerLink="../festivals">{{'MENU.FESTIVALS' | translate}}</a>
+        </div>
+        <br>
+        <div>
+          <p>
+            Suspendisse potenti. Etiam in tincidunt orci, quis ullamcorper metus. Donec vestibulum purus dui, a
+            condimentum ipsum faucibus ac. Morbi vel neque nec felis finibus lacinia a vel sem. Nam interdum, lectus id
+            condimentum feugiat, urna dolor rhoncus odio, ac varius tortor turpis vitae tellus. Phasellus id porta urna.
+            Morbi blandit at arcu sit amet suscipit. Duis semper neque eu tortor vehicula sagittis. Sed hendrerit, lacus
+            maximus ultricies tempor, augue purus elementum sapien, id tristique elit magna quis dui. Aliquam erat
+            volutpat. Morbi egestas, elit ac commodo facilisis, odio mi iaculis leo, sed aliquam velit arcu sed justo.
+            Interdum et malesuada fames ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad litora
+            torquent
+            per conubia nostra, per inceptos himenaeos. Proin sit amet massa dui.
+          </p>
+          <a mat-raised-button routerLink="../news">{{'MENU.NEWS' | translate}}</a>
+        </div>
+        <br>
+        <div>
+        <p>
+          Donec faucibus, enim ut vestibulum elementum, sapien dolor interdum velit, in semper elit ante sed turpis.
+          Proin tristique vel mi sed laoreet. Ut tincidunt sem luctus, varius purus a, mollis velit. Proin id dolor non
+          dolor consequat consequat eu nec risus. Suspendisse potenti. Aliquam at pretium ligula. Integer cursus
+          malesuada est, ut venenatis lacus maximus et. Fusce rutrum purus et cursus lacinia. Morbi ante sem, aliquet
+          nec leo vel, tempor dignissim nibh. Mauris eros lacus, posuere vel odio sit amet, euismod suscipit neque.
+          Quisque dolor ipsum, finibus dapibus justo non, euismod semper sem. Pellentesque rhoncus non tortor semper
+          tincidunt.
+        </p>
+        <a mat-raised-button routerLink="../attractions">{{'MENU.ATTRACTIONS' | translate}}</a>
+      </div>
+      <br>
+      <div>
+        <p>
+          Quisque ligula nisl, rhoncus non gravida sed, dapibus vitae nisl. Proin tincidunt in elit auctor dapibus. Nunc
+          pulvinar eget ex eget imperdiet. Suspendisse congue sodales aliquet. Ut posuere ligula at purus interdum, sit
+          amet sodales arcu eleifend. Duis pharetra mi ante, eu venenatis enim euismod sit amet. Nam et nunc sagittis,
+          consequat dui id, convallis lectus. Morbi nec efficitur tortor. Morbi eleifend, erat ut condimentum posuere,
+          ante massa pulvinar purus, in euismod neque mauris quis nibh. Etiam eget ultrices neque, vel facilisis dui.
+          Phasellus tristique odio eu malesuada consequat. Phasellus ac neque laoreet, ornare ipsum eu, placerat velit.
+          Donec vel sollicitudin est, vel bibendum urna. Praesent lectus turpis, pulvinar sit amet blandit vitae,
+          ullamcorper vitae elit. Phasellus cursus diam rhoncus nibh posuere egestas.
+        </p>
+        <a mat-raised-button routerLink="../hotels">{{'MENU.HOTELS' | translate}}</a>
+      </div>
+      <br>
+      <div>
+        <p>
+          Duis elementum risus velit. Nullam egestas egestas enim vel semper. Curabitur ante nulla, vestibulum sed
+          egestas sed, gravida eget mauris. Praesent placerat sagittis porttitor. Aliquam luctus faucibus ultricies.
+          Etiam nec lacus arcu. Donec volutpat velit a odio auctor, in interdum tellus tristique.
+        </p>
+        <a mat-raised-button routerLink="../restaurants">{{'MENU.RESTAURANTS' | translate}}</a>
+      </div>
+      <br>
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit massa id lacus fringilla lobortis.
+          Phasellus id blandit tellus, eu convallis libero. Proin lacinia, nulla porttitor porttitor cursus, lectus leo
+          pulvinar nulla, a aliquam metus quam id justo. In libero diam, viverra eleifend sollicitudin et, porttitor ut
+          massa. Nullam sagittis laoreet scelerisque. Phasellus eleifend elit nec elit interdum, vitae ultricies leo
+          scelerisque. Mauris ac pulvinar enim. Nunc nec mauris sed ipsum tristique scelerisque sed et felis. Nullam
+          ultrices ligula at tortor blandit vulputate. Cras a accumsan urna. In in metus mauris.
+        </p>
+        <a mat-raised-button routerLink="../blog">{{'MENU.BLOG' | translate}}</a>
+      </div>
+    </div>
+  </div>
+  <hr>
+</div>
