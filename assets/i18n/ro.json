@@ -11,7 +11,7 @@
     "TITLE": "Pagina Acasa"
   },
   "HOTELS_PAGE": "Pagina Hoteluri",
-  "FESTIVALS_PAGE": "Pagina Festivaluri",
+  "FESTIVALS_PAGE": "Festivaluri in Sighisoara",
   "NEWS_PAGE": "Pagina Stiri",
   "REGISTRATION_PAGE": "Pagina Inregistrare",
   "RESTAURANTS_PAGE": "Pagina Restaurante",
@@ -31,7 +31,8 @@
   },
   "FESTIVAL": {
     "NAME": "Nume",
-    "PERIOD": "Perioada"
+    "START_DATE": "Data start",
+    "END_DATE": "Data sfarsit"
   },
   "HOTEL": {
     "NAME": "Nume",
@@ -49,5 +50,19 @@
   "RESTAURANT": {
     "NAME": "Nume",
     "LOCATION": "Locatie"
+  },
+  "MONTHS": {
+    "JAN": "Ian.",
+    "FEB": "Feb.",
+    "MAR": "Mar.",
+    "APR": "Apr.",
+    "MAY": "Mai",
+    "JUN": "Jun.",
+    "JUL": "Jul.",
+    "AUG": "Aug.",
+    "SEP": "Sep.",
+    "OCT": "Oct.",
+    "NOV": "Noi.",
+    "DEC": "Dec."
   }
 }
