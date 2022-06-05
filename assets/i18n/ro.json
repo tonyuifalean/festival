@@ -9,12 +9,12 @@
   "HOME_PAGE": {
     "TITLE": "Festivaluri in Sighisoara"
   },
-  "ACCOMODATIONS_PAGE": "Pagina Hoteluri",
-  "FESTIVALS_PAGE": "Festivaluri in Sighisoara",
-  "NEWS_PAGE": "Pagina Stiri",
-  "REGISTRATION_PAGE": "Pagina Inregistrare",
-  "RESTAURANTS_PAGE": "Pagina Restaurante",
-  "TOURIST_ATTRACTIONS_PAGE": "Pagina atractii turistice",
+  "ACCOMODATIONS_PAGE": "Cazare",
+  "FESTIVALS_PAGE": "Festivaluri",
+  "NEWS_PAGE": "Stiri",
+  "REGISTRATION_PAGE": "Inregistrare",
+  "RESTAURANTS_PAGE": "Restaurante",
+  "TOURIST_ATTRACTIONS_PAGE": "Atractii turistice",
   "BLOG": {
     "POST_1": {
       "TITLE": "SIGHIȘOARA, orașul pitoresc învăluit în mister",
@@ -42,11 +42,13 @@
   "FESTIVAL": {
     "NAME": "Nume",
     "START_DATE": "Data start",
-    "END_DATE": "Data sfarsit"
+    "END_DATE": "Data sfarsit",
+    "VIEW": "Vizualizeaza"
   },
-  "HOTEL": {
+  "ACCOMODATION": {
     "NAME": "Nume",
-    "LOCATION": "Locatie"
+    "LOCATION": "Locatie",
+    "VIEW": "Vizualizeaza"
   },
   "MENU": {
     "ATTRACTIONS": "Obiective",
@@ -60,7 +62,8 @@
   },
   "RESTAURANT": {
     "NAME": "Nume",
-    "LOCATION": "Locatie"
+    "LOCATION": "Locatie",
+    "VIEW": "Vizualizeaza"
   },
   "MONTHS": {
     "JAN": "Ian.",

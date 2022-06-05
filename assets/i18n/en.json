@@ -9,12 +9,12 @@
   "HOME_PAGE": {
     "TITLE": "Sighisoara Festivals"
   },
-  "ACCOMODATIONS_PAGE": "Hotels Page",
-  "FESTIVALS_PAGE": "Festivals in Sighisoara",
-  "NEWS_PAGE": "News Page",
-  "REGISTRATION_PAGE": "Registration Page",
-  "RESTAURANTS_PAGE": "Restaurants Page",
-  "TOURIST_ATTRACTIONS_PAGE": "Tourist attractions page",
+  "ACCOMODATIONS_PAGE": "Accomodations",
+  "FESTIVALS_PAGE": "Festivals",
+  "NEWS_PAGE": "News",
+  "REGISTRATION_PAGE": "Registration",
+  "RESTAURANTS_PAGE": "Restaurants",
+  "TOURIST_ATTRACTIONS_PAGE": "Tourist attractions",
   "BLOG": {
     "POST_1": {
       "TITLE": "SIGHIȘOARA, the scenic city veiled in mystery",
@@ -42,11 +42,13 @@
   "FESTIVAL": {
     "NAME": "Name",
     "START_DATE": "Start date",
-    "END_DATE": "End date"
+    "END_DATE": "End date",
+    "VIEW": "View"
   },
-  "HOTEL": {
+  "ACCOMODATION": {
     "NAME": "Name",
-    "LOCATION": "Location"
+    "LOCATION": "Location",
+    "VIEW": "View"
   },
   "MENU": {
     "ATTRACTIONS": "Attractions",
@@ -54,13 +56,14 @@
     "BLOG": "Blog",
     "FESTIVALS": "Festivals",
     "HOME": "Home",
-    "ACCOMODATIONS": "Hotels",
+    "ACCOMODATIONS": "Accomodations",
     "NEWS": "News",
     "RESTAURANTS": "Restaurants"
   },
   "RESTAURANT": {
     "NAME": "Name",
-    "LOCATION": "Location"
+    "LOCATION": "Location",
+    "VIEW": "View"
   },
   "MONTHS": {
     "JAN": "Jan.",
