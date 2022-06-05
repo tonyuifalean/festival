@@ -7,10 +7,9 @@
     "WRONG_CREDENTIALS": "Credentiale gresite!"
   },
   "HOME_PAGE": {
-    "HELLO": "Buna",
-    "TITLE": "Pagina Acasa"
+    "TITLE": "Festivaluri in Sighisoara"
   },
-  "HOTELS_PAGE": "Pagina Hoteluri",
+  "ACCOMODATIONS_PAGE": "Pagina Hoteluri",
   "FESTIVALS_PAGE": "Festivaluri in Sighisoara",
   "NEWS_PAGE": "Pagina Stiri",
   "REGISTRATION_PAGE": "Pagina Inregistrare",
@@ -27,6 +26,17 @@
       "P_6": "Poveștile sunt mai frumoase când devin realități, așadar povestea continuă, prin intermediul Sighișoara Shop.",
       "P_7": "Frumusețea pitorească a orașului împreună cu tradițiile sale deosebite încercăm să le ducem mai departe cu ajutorul produselor tematice-tradiționale din Sighișoara și în colaborare cu producătorii locali.",
       "P_8": "Prin urmare, vă invităm cu drag să vizitați magazinul nostru și să vă achiziționați produse care spun povestea acestui oraș deosebit, din inima Transilvaniei."
+    },
+    "POST_2": {
+      "TITLE": "SIGHIȘOARA, the scenic city veiled in mystery",
+      "P_1": "Sighișoara, this medieval fortress, with its mysterious Gothic allure, located on the banks of the river Târnava Mare, in an enchanting natural setting, with a forest surrounding the fortress on top of a hill, is documented from December 14, 1280; the Romanian name of the city being of Hungarian origin: \"Segesvár\"",
+      "P_2": "If you go to this charming city, the Vlad Dracul House is on your way (the place where Vlad Dracul, Vlad Tepes’ father is supposed to have lived) and you can be transposed into a fascinating world, where the historical truth and mysterious legend meet.",
+      "P_3": "As a tourist attraction, which helped to acquire the name \"Pearl of Transylvania\", we mention: the Citadel Square (one of the most beautiful medieval squares in Romania), the Clock Tower - 64 meters high (with its own legend that says that the clock in tower never lags behind), the Church on the Hill (with the beauty of its Gothic style architecture), the Covered Stairs (with its 175 steps), the Monastery Church, the Deer House and, last but not least, the brightly colored buildings that delights the eye.",
+      "P_4": "In the Medieval Fortress of Sighișoara, which is also among the few permanently inhabited medieval fortresses in Europe, everything is like a fairy tale if we set our imagination in motion: narrow streets where fearless knights and ladies roamed, waiting to be saved, rulers and their ladies who lived in medieval buildings, with Baroque, Gothic and Renaissance architecture, in sumptuous rooms with solid wood furniture, drummers (the openers of the Citadel) dressed as in the old days.",
+      "P_5": "Nowadays, we find another drummer, other knights and other ladies, this time at the famous Medieval Festival, which attracts tens of thousands of tourists every year, from the country and abroad, eager for joy.",
+      "P_6": "Fairy tales are more beautiful when they come true, so the story goes on, through Sighisoara Shop.",
+      "P_7": "We try to carry on the beauty of this picturesque city along with its special traditions through thematic-traditional products and in collaboration with local producers.",
+      "P_8": "Therefore, we warmly invite you to visit our store and buy products that tell the story of this special city, from the heart of Transylvania."
     }
   },
   "FESTIVAL": {
@@ -40,10 +50,11 @@
   },
   "MENU": {
     "ATTRACTIONS": "Obiective",
+    "ATTRACTIONS_DESCRIPTION": "Dacă stați câteva zile în Sighișoara și doriți să vizitați principalele atracții turistice și muzee ale orașului, vă prezentăm itinerariul nostru, care include informații detaliate despre acestea, precum și în ce mod să vă organizați timpul.",
     "BLOG": "Blog",
     "FESTIVALS": "Festivaluri",
     "HOME": "Acasa",
-    "HOTELS": "Hoteluri",
+    "ACCOMODATIONS": "Hoteluri",
     "NEWS": "Stiri",
     "RESTAURANTS": "Restaurante"
   },
