@@ -7,7 +7,32 @@
     "WRONG_CREDENTIALS": "Wrong credentials!"
   },
   "HOME_PAGE": {
-    "TITLE": "Festival in Sighisoara"
+    "TITLE": "Festival in Sighisoara",
+    "FESTIVALS": {
+      "P_1": "Sighisoara has an intense cultural life: throughout the year, events take place here that cover a wide range of tastes: from blues to chamber music, fanfare, traditions and crafts, customs, etc. The culmination of the cultural calendar is at the end of July, when the Citadel returns to the Middle Ages, reliving that era through medieval art.",
+      "P_2": "Sighisoara is an open-air museum worth visiting so that you can discover the citadel and what better reason to do that is by participating in the famous festivals. The Medieval Festival, the Fanfare Festival, the Blues Festival, ProEtnica Sighișoara Festival are just some of the festivals that invite you to discover the hidden charm of the Medieval Citadel, which is revealed during a walk through the winding streets.",
+      "P_3": "Sighisoara is often compared to other medieval cities in Romania or Europe. It is clear that each city has its own charm and uniqueness, and is differentiated by certain characteristics. But, what we can strongly say is that if you do not visit it in the high season when thousands of tourists from all over the world will come your way, the city is a good premise to detach yourself from the hustle and bustle of other larger cities, and to visit beautiful places at will."
+    },
+    "TOURIST_ATTRACTIONS": {
+      "P_1": "The legends behind the medieval town of Sighisoara unquestionably captivate those who \"cross its threshold\", and Sighișoara, \"Medieval Jewel of Romania\" awaits its visitors to reveal its mystery hidden in the walls aged for hundreds of years of existence.",
+      "P_2": "Today, the old fortress - with lofty towers and gloomy but hospitable walls, rising vertically into the ages to come, carefully preserving between its old walls polychrome houses generously described in the chroniclers' pages - is considered to be the only medieval fortress inhabited entirely in South-Eastern Europe, being also a part of the UNESCO World Heritage Site.",
+      "P_3": "The points of attraction are an invitation to discover the charm of the place, described in chronicles and recreated in modern times in the most unexpected ways."
+    },
+    "ACCOMODATIONS": {
+      "P_1": "A walk on the streets leading to the iconic Clock Tower, when the shadows of the evening descend enigmatically enveloping the fortress, and the warm light of the lanterns guides the way, is always a delight for anyone, whether tourist, local, or just an ephemeral character.",
+      "P_2": "Are you planning to visit Sighisoara, the fairytale city, in the next period or are you participating in this year's festivals? We introduce you to a list of the most beautiful and chic hotels in Sighișoara."
+    },
+    "RESTAURANTS": {
+      "P_1": "Along with the famous monuments, which stand out, it is worth mentioning the restaurants and terraces of Sighișoara, places that can be admired along the streets of the fortress.",
+      "P_2": "In order to take the pulse of the city and freely admire the pastel color of the buildings in Sighisoara, it is necessary to have a beneficial respite for the body and peaceful enjoyment of delicious lemonade, on one of the inviting terraces in the special Citadel Square.",
+      "P_3": "Traditional restaurants bring the spirit and authentic Romanian culinary flavors from different parts of the country, as well as restaurants with international specialties where you will find a rich menu and a stylish arrangement."
+    },
+    "BLOG": {
+      "P_1": "We suggest you discover our blog, which invites you to a nostalgic journey through time.",
+      "UOL_1": "SIGHIȘOARA, the picturesque city shrouded in mystery",
+      "UOL_2": "Top 10 curiosities about Sighișoara",
+      "UOL_3": "Discover the Sighișoara Fortress in 48 hours"
+    }
   },
   "ACCOMODATIONS_PAGE": "Accomodations",
   "FESTIVALS_PAGE": "Festivals",

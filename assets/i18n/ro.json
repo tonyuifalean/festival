@@ -7,7 +7,32 @@
     "WRONG_CREDENTIALS": "Credentiale gresite!"
   },
   "HOME_PAGE": {
-    "TITLE": "Festival in Sighisoara"
+    "TITLE": "Festival in Sighisoara",
+    "FESTIVALS": {
+      "P_1": "Sighisoara are o viata culturala intensa: pe tot parcursul anului aici au loc evenimente care acoperă o gama largă de gusturi: de la blues la muzica de camera, de fanfara, traditii si meșteșuguri, obiceiuri, etc. Punctul culminant al calendarului cultural este la sfarsitul lunii Iulie, când Cetatea se reintoarce în Evul Mediu retraindu-si prin arta medievala acea epoca.",
+      "P_2": "Sighișoara este un adevărat muzeu medieval în aer liber și merită străbătută la pas pentru a o descoperi și ce motiv mai întemeiat decât acela de a o descoperi participand la vestitele festivaluri.Festivalul Medieval, Festivalul Fanfarelor, Festivalul Blues, Festivalul ProEtnica Sighișoara sunt doar cateva din festivalurile care te îmbie sa descoperi farmecul ascuns al Cetății Medievale, care se dezvăluie în timpul unei plimbari pe străduțele întortocheate.",
+      "P_3": "Sighișoara este adesea comparată cu alte cetăți medievale din România sau Europa. E clar că fiecare oraș are farmecul și unicitatea sa, și se diferențiază prin anumite caracteristici. Dar, ce putem afirma cu tărie e că, dacă nu o vizitezi în plin sezon, când îți vor ieși în cale mii de turiști, veniți din toate colțurile lumii, orașul constituie o premisă bună pentru a te detașa de agitația altor orașe mai mari, și a vizita în voie locuri frumoase."
+    },
+    "TOURIST_ATTRACTIONS": {
+      "P_1": "Legendele din spatele burgului medieval sighișorean îi captivează fără putință de tăgadă pe cei care îi \"trec pragul\", iar Sighișoara, \"Bijuteria medievală a României\" își așteaptă vizitatorii pentru a-si dezvalui misterul strans in zidurile imbatranite de vreme în sutele de ani de existenta. ",
+      "P_2": "Astazi, vechea Cetate - cu turnuri semete si ziduri sumbre dar ospitaliere, ce se înalță vertical spre veacurile care vin, pastrand grijuliu între zidurile sale batrane case policrome descrise cu generozitate în filele cronicarilor - este considerată a fi singura cetate medievala locuita în întregime din Sud-estul  Europei, fiind și parte a Patrimoniului Mondial UNESCO.",
+      "P_3": "Punctele de atracție sunt o invitație la a descoperi farmecul locului, descris în cronici și recreat în timpurile moderne în cele mai neașteptate moduri."
+    },
+    "ACCOMODATIONS": {
+      "P_1": "O promenadă pe stradutele ce duc la emblematicul Turnul cu Ceas, când umbrele serii coboară enigmatic invaluind cetatea, iar lumina caldă a felinarelor ghidează calea, este mereu o încântare pentru oricine, fie el turist, localnic, sau doar un efemer personaj.",
+      "P_2": "Te-am făcut curios? Planuiesti sa vizitezi Sighișoara, orașul de poveste, în perioada următoare sau poate sa participi la festivalurile din acest an? Iti prezentăm noi o listă cu cele mai frumoase și cochete hoteluri din Sighișoara."
+    },
+    "RESTAURANTS": {
+      "P_1": "Alături de monumente faimoase, ce ies în evidenta, merită menționate restaurantele și terasele orașului Sighișoara, localuri ce pot fi admirate de-a lungul străzilor cetății. ",
+      "P_2": "Pentru a lua pulsul orașului și a admira în voie culorile pastelate ale clădirilor sighișorene, se impune un răgaz benefic pentru trup și o savurare în tihnă a unei limonade cinstite, la una din  terasele îmbietoare din specială Piață a Cetății.",
+      "P_3": "Restaurante cu specific tradițional, care aduc spiritul și aromele culinare autentice românești din diferite zone ale țării, precum și restaurante cu specific internațional la care veti gasi un meniu bogat și o amenajare cu stil."
+    },
+    "BLOG": {
+      "P_1": "Te invitam sa descoperi blogul nostru, care te invita la o călătorie nostalgică în timp.",
+      "UOL_1": "SIGHIȘOARA, orașul pitoresc învăluit în mister",
+      "UOL_2": "Top 10 curiozități despre Sighișoara",
+      "UOL_3": "Descoperă Cetatea din Sighișoara în 48 ore"
+    }
   },
   "ACCOMODATIONS_PAGE": "Cazare",
   "FESTIVALS_PAGE": "Festivaluri",
